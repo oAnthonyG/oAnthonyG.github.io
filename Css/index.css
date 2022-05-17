@@ -1,0 +1,147 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #079992;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+h1{
+    font-size: 30px;
+    color:#FFF;
+    font-family: "Press Start 2P", sans-serif;
+    text-shadow: 5px 5px 0px #000;
+}
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+a::before{
+    content: "";
+    background-color: #082162;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+#button{
+    display: inline-block;
+    background-color: #0c2461;
+    line-height: 60px;
+    padding: 8px 10px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 150ms linear, background .3s ease-in-out;
+
+}
+#button:hover{
+    transform: scale(1.08);
+    background-color: #253ea5;
+
+}
+#button:active{
+    background-color: #0a3d62;
+}
+
+#nome{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: calc(50% - 330px/2 - 289px);
+    top: 214px;
+
+    color: #0B1AA9;
+    font-family: "Press Start 2P", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40%;
+    text-shadow: 4px 4px 0px #000;
+}
+#sub{
+    position: absolute;
+    width: 640px;
+    height: 30px;
+    left: 36px;
+    top: 314px;
+
+    color: #FFF;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: 4px 4px 0px #000;
+}
+
+
+a#button2{
+    position: absolute;
+width: 170px;
+height: 60px;
+left: 181px;
+top: 418px;
+
+}
+
+#button2{
+    display: flex;
+    background-color: #0c2461;
+    line-height: 60px;
+    padding: 8px 10px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 150ms linear, background .3s ease-in-out;
+
+}
+#button2:hover{
+    transform: scale(1.08);
+    background-color: #253ea5;
+
+}
+#button2:active{
+    background-color: #0a3d62;
+}
+a#button3{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 463px;
+    top:  418px;
+}
+#button3{
+    display: flex;
+    background-color: #0c2461;
+    line-height: 60px;
+    padding: 8px 10px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 150ms linear, background .3s ease-in-out;
+
+}
+#button3:hover{
+    transform: scale(1.08);
+    background-color: #253ea5;
+
+}
+#button3:active{
+    background-color: #0a3d62;
+}

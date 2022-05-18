@@ -1,17 +1,13 @@
 
 header{
+    position: static;
     display: flex;
     justify-content: space-between;
     background-color: #079992;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
-h1{
-    font-size: 30px;
-    color:#FFF;
-    font-family: "Press Start 2P", sans-serif;
-    text-shadow: 5px 5px 0px #000;
-}
+
 nav.cabecalho{
     text-align: right;
 }
@@ -27,6 +23,7 @@ a{
     margin-right: 20px;
     
 }
+
 a::before{
     content: "";
     background-color: #082162;
@@ -35,11 +32,9 @@ a::before{
     margin-right: 10px;
 }
 
-
-
 section.fundo{
     display: block;
-    background-color: gray;
+    background-color: #3A4042;
     position: absolute;
     width: 617px;
     height: 184px;
@@ -48,36 +43,7 @@ section.fundo{
     filter: drop-shadow(10px 10px 0px #000);
     margin: 1px;
 }
-h2.nome{
-    position: absolute;
-    width: 330px;
-    height: 62px;
-    left: 160px;
-    top: 38px;
-    color: #0B1AA9;
-    font-family: "Press Start 2P";
-    font-style: normal;
-    font-size: 40px;
-    line-height: 40px;
-    text-shadow: 4px 4px 0px #000;
-    margin: 0px;
-    
-}
-h3.front{
-    position: absolute;
-    width: 575px;
-    height: 30px;
-    left: 30px;
-    top: 120px;
 
-    font-family: "Press Start 2P";
-    font-style: normal;
-    font-size: 30px;
-    line-height: 30px;
-    color: #FFF;
-    text-shadow:  4px 4px 0px #000;
-    margin: 0px;
-}
 
 .nova{
     position: absolute;
@@ -88,6 +54,7 @@ h3.front{
     text-align: center;
     font-size: 20px;
 }
+
 .nova2{
     position: absolute;
     width: 170px;
@@ -97,11 +64,11 @@ h3.front{
     text-align: center;
     font-size: 20px;
 }
+
 .imagem-fundo{
     background-image: url(../Imagens/thumb-1920-548279\ 1.png);
     height: 100vh;
-    width: 130vh;
+    width: 100%;
     background-repeat: no-repeat;
-    border-right: 10px solid #000;
     border-bottom: 10px solid #000;
 }

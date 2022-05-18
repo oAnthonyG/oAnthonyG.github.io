@@ -97,3 +97,11 @@ h3.front{
     text-align: center;
     font-size: 20px;
 }
+.imagem-fundo{
+    background-image: url(../Imagens/thumb-1920-548279\ 1.png);
+    height: 100vh;
+    width: 130vh;
+    background-repeat: no-repeat;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+}

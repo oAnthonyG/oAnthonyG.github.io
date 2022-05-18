@@ -12,7 +12,7 @@ h1{
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 5px 5px 0px #000;
 }
-nav{
+nav.cabecalho{
     text-align: right;
 }
 
@@ -36,112 +36,64 @@ a::before{
 }
 
 
-#button{
-    display: inline-block;
-    background-color: #0c2461;
-    line-height: 60px;
-    padding: 8px 10px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 150ms linear, background .3s ease-in-out;
 
+section.fundo{
+    display: block;
+    background-color: gray;
+    position: absolute;
+    width: 617px;
+    height: 184px;
+    left: 96px;
+    top: 184px;
+    filter: drop-shadow(10px 10px 0px #000);
+    margin: 1px;
 }
-#button:hover{
-    transform: scale(1.08);
-    background-color: #253ea5;
-
-}
-#button:active{
-    background-color: #0a3d62;
-}
-
-#nome{
+h2.nome{
     position: absolute;
     width: 330px;
-    height: 330px;
-    left: calc(50% - 330px/2 - 289px);
-    top: 214px;
-
+    height: 62px;
+    left: 160px;
+    top: 38px;
     color: #0B1AA9;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: "Press Start 2P";
     font-style: normal;
-    font-weight: 400;
     font-size: 40px;
-    line-height: 40%;
+    line-height: 40px;
     text-shadow: 4px 4px 0px #000;
+    margin: 0px;
+    
 }
-#sub{
+h3.front{
     position: absolute;
-    width: 640px;
+    width: 575px;
     height: 30px;
-    left: 36px;
-    top: 314px;
+    left: 30px;
+    top: 120px;
 
-    color: #FFF;
-    font-family: 'Press Start 2P';
+    font-family: "Press Start 2P";
     font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    text-shadow: 4px 4px 0px #000;
+    color: #FFF;
+    text-shadow:  4px 4px 0px #000;
+    margin: 0px;
 }
 
-
-a#button2{
+.nova{
     position: absolute;
-width: 170px;
-height: 60px;
-left: 181px;
-top: 418px;
-
+    width: 170px;
+    height: 60px;
+    left: 181px;
+    top: 418px;
+    text-align: center;
+    font-size: 20px;
 }
-
-#button2{
-    display: flex;
-    background-color: #0c2461;
-    line-height: 60px;
-    padding: 8px 10px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 150ms linear, background .3s ease-in-out;
-
-}
-#button2:hover{
-    transform: scale(1.08);
-    background-color: #253ea5;
-
-}
-#button2:active{
-    background-color: #0a3d62;
-}
-a#button3{
+.nova2{
     position: absolute;
     width: 170px;
     height: 60px;
     left: 463px;
-    top:  418px;
-}
-#button3{
-    display: flex;
-    background-color: #0c2461;
-    line-height: 60px;
-    padding: 8px 10px;
-    box-shadow: 5px 5px 0 #000;
-    margin-right: 0px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 150ms linear, background .3s ease-in-out;
-
-}
-#button3:hover{
-    transform: scale(1.08);
-    background-color: #253ea5;
-
-}
-#button3:active{
-    background-color: #0a3d62;
+    top: 418px;
+    text-align: center;
+    font-size: 20px;
 }

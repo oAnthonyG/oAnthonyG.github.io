@@ -32,19 +32,6 @@ a::before{
     margin-right: 10px;
 }
 
-section.fundo{
-    display: block;
-    background-color: #3A4042;
-    position: absolute;
-    width: 617px;
-    height: 184px;
-    left: 96px;
-    top: 184px;
-    filter: drop-shadow(10px 10px 0px #000);
-    margin: 1px;
-}
-
-
 .nova{
     position: absolute;
     width: 170px;

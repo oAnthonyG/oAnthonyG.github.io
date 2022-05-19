@@ -5,19 +5,11 @@ h1{
     text-shadow: 5px 5px 0 #000;
 }
 
-
-h1.tittle1{
+.tittle{
     font-family: "Press Start 2P", sans-serif;
     font-size: 35px;
     color: #0B1AA9;
     text-shadow: 4px 4px 0px #000;
-}
-
-h2{
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 25px;
-    color: #FFF;
-    text-shadow: 3px 3px 0px #000;
 }
 
 

@@ -25,3 +25,10 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+.fundo{
+    background-color: #202C59;
+    height: 730px;
+    border-bottom: 10px solid #7C5E99;
+}

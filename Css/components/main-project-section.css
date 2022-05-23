@@ -1,0 +1,17 @@
+.main-project-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.backgound-image{
+    box-shadow: 10px 10px 0 rgb(99, 3, 112);
+}
+
+.main-project-section .backgound-image{
+    transition: transform 150ms cubic-bezier(.45,.97,.68,2.48);
+}
+.main-project-section img:hover{
+    transform: scale(1.08);
+
+}

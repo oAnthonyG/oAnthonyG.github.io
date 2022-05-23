@@ -15,22 +15,3 @@
     height: 520px;
     border-bottom: 10px solid #F25A70;
 }
-
-.portifolio{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-
-.fundo{
-    box-shadow: 10px 10px 0 rgb(99, 3, 112);
-}
-
-.portifolio img{
-    transition: transform 150ms cubic-bezier(.45,.97,.68,2.48);
-}
-.portifolio img:hover{
-    transform: scale(1.08);
-
-}

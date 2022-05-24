@@ -10,8 +10,8 @@
     margin-bottom: 60px;
 }
 
-.section.-card{
+.section.-bgBlack{
     background-color: black;
     height: 520px;
-    border-bottom: 10px solid #F25A70;
+    border-color:  #F25A70;
 }

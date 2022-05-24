@@ -1,17 +1,12 @@
-.card-project{
-    display: inline-flex;
-    justify-content: center;
-    margin-left: 90px;
-}
 
-.backgound-image{
+.logo{
     box-shadow: 10px 10px 0 rgb(99, 3, 112);
 }
 
-.card-project .backgound-image{
+.card-project .logo{
     transition: transform 150ms cubic-bezier(.45,.97,.68,2.48);
 }
-.card-project img:hover{
+.card-project .logo:hover{
     transform: scale(1.08);
 
 }

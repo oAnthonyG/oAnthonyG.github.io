@@ -4,3 +4,13 @@
     text-shadow: 3px 3px 0px #000;
     color: #FFF;
 }
+
+.texto{
+    font-family: "Fira Code", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFF;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 350px;
+}

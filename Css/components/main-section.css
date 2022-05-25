@@ -21,3 +21,8 @@
     background-color: #0e6965;
     border-color: #000;
 }
+
+.main-section.-bgGrey{
+    height: 730px;
+    background-color: #828282;
+}

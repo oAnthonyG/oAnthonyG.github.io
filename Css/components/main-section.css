@@ -26,3 +26,10 @@
     height: 760px;
     background-color: #636363;
 }
+
+.main-section.-rodape{
+    background-color: #000;
+    height: 100px;
+    border: none;
+    padding: 0;
+}

@@ -88,5 +88,19 @@
         width: 6.5em;
         
     }
+
+    /*MAIN SECTION ABOUT*/
+    .main-section.-bgVerde{
+        height: auto;
+    }
+    .main-description{
+        font-size: 1.5em;
+        margin: 0.6em;
+    }
+
+    /*MAIN SECTION CONTACT*/
+    .main-section.-bgGrey{
+        height: auto;
+    }
     
 }

@@ -1,6 +1,12 @@
 .wrapper-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 18em;
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .gif-astro{

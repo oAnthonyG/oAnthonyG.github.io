@@ -75,5 +75,18 @@
     margin-right: 0;
 }
 
+/*MAIN SECTION PROJECT*/
+    .main-section.-bgBlack{
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        
+    }
 
+
+    .card-project .logo{
+        width: 6.5em;
+        
+    }
+    
 }

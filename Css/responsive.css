@@ -1,20 +1,35 @@
+@media screen and (max-width: 560px){
+    .main-header nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .main-header .main-button{
+        display: none;
+    }
+    .main-header h1{
+        margin: auto;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .main-banner .wrapper {
+        width: auto;
+        padding: 6rem 1rem;
+    }
+    .main-box{
+        padding: 1rem 0.2rem;
+    }
+    .main-box .main-title{
+    width: 90%;
+}
+}
 @media screen and (max-width: 480px) {
 
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-    .main-header h1{
-        margin: auto;
-        margin-left: 0;
-    }
-    .main-header .main-button{
-        display: none;
-    }
-    .main-header nav{
-        width: 75%;
-        padding-left: 0.8em;
     }
     
     .main-header .main-action{
@@ -104,3 +119,4 @@
     }
     
 }
+

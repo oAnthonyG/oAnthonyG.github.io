@@ -11,6 +11,7 @@
 .scroll-component{
     display: flex;
     overflow-x: auto;
+    margin-bottom: 1rem;
 }
 
 .gif-astro{

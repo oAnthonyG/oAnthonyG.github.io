@@ -1,4 +1,4 @@
-.main-banner{
+.main-banner {
     box-sizing: border-box;
     background-image: url(../../Imagens/Banner.png);
     background-repeat: no-repeat;
@@ -7,17 +7,17 @@
 
 }
 
-.main-banner .wrapper{
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 683px;
-    padding-top: 115px;
-    padding-left: 90px;
+    width: 42.6875rem;
+    padding-top: 7.18rem;
+    padding-left: 5.625rem;
 }
 
-.main-banner .main-box{
-    margin-bottom: 40px;
-    
+.main-banner .main-box {
+    margin-bottom: 2.5rem;
+
 }
 
 .main-banner .navigation {
@@ -25,3 +25,32 @@
     justify-content: space-around;
 }
 
+
+@media screen and (max-width: 840px) {
+
+    .main-banner .wrapper {
+        width: auto;
+        padding: 6rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .main-banner {
+        background-image: url(../../Imagens/background-mobile.jpg);
+        background-size: auto;
+        height: 80vh;
+    }
+
+    .main-banner .wrapper {
+        width: 90%;
+        height: auto;
+        padding: 0;
+        padding-top: 1em;
+        margin-inline: auto;
+    }
+
+    .wrapper .main-box{
+        padding: 0;
+    }
+}

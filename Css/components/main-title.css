@@ -1,5 +1,5 @@
 h1{
-    font-size: 30px;
+    font-size: 1.875rem;
     color:#FFF;
     font-family: "Press Start 2P", sans-serif;
     text-shadow: 5px 5px 0 #000;
@@ -7,10 +7,10 @@ h1{
 
 .main-title{
     font-family: "Press Start 2P", sans-serif;
-    font-size: 35px;
+    font-size: 2.187rem;
     color: #0B1AA9;
     text-shadow: 4px 4px 0px #000;
-    padding-bottom: 33px;
+    padding-bottom: 2.06rem;
 }
 
 .main-title.-second{

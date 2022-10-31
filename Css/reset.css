@@ -1,13 +1,23 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-body{
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-}
+ body {
+     font-family: "Fira Code", Arial, Helvetica, sans-serif;
+ }
 
-body, h1.title, h2, h3, input{
-    margin: 0;
-    padding: 0;
-}
-button{
-    border: nome;
-    font-family: inherit;
-}
+ body,
+ h1.title,
+ h2,
+ h3,
+ input {
+     margin: 0;
+     padding: 0;
+ }
+
+ button {
+     border: nome;
+     font-family: inherit;
+ }

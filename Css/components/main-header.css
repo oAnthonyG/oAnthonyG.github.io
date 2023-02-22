@@ -5,6 +5,7 @@ html {
 .main-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #079992;
     border-bottom: 10px solid #000;
     padding: 0.625rem 1.25rem;

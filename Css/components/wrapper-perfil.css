@@ -1,5 +1,6 @@
 .wrapper-perfil{
     display: flex;
     justify-content: center;
-    
+    gap: 1rem;
+    padding-top: 0.2rem;
 }
